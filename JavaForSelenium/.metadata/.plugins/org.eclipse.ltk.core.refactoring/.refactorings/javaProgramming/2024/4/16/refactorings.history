@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;Day1.SumOfElementArray&apos; to &apos;Session6ArrayProblem&apos;&#x0D;&#x0A;- Original project: &apos;javaProgramming&apos;&#x0D;&#x0A;- Original element: &apos;Day1.SumOfElementArray&apos;&#x0D;&#x0A;- Renamed element: &apos;Day1.Session6ArrayProblem&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SumOfElementArray&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Day1{SumOfElementArray.java[SumOfElementArray" matchStrategy="1" name="Session6ArrayProblem" qualified="false" references="true" similarDeclarations="false" stamp="1713195370009" textual="false" version="1.0"/>
-</session>

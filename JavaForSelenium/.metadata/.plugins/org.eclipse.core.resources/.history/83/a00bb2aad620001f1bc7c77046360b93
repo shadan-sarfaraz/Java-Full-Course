@@ -1,7 +1,0 @@
-package session11Methods;
-
-public class GrretingJava {
-	void greet() {
-		System.out.println("hello");
-	}
-}

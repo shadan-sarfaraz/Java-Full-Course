@@ -1,0 +1,9 @@
+package Day1;
+
+import java.util.Scanner;
+
+public class CheckNoPositiveNegetiveZero {
+	public static void main(String[] args) {
+		
+	}
+}

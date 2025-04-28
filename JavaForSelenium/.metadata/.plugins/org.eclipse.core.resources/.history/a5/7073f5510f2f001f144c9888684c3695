@@ -1,0 +1,19 @@
+package session19;
+
+public class TypeCastingObject2 {
+	
+	class Animal{}
+	
+	class Dog extends Animal{}
+	class Cat extends Animal{}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Animal an = new Dog();
+//		Cat ct = (Cat) an;
+		
+	}
+
+}
+ 

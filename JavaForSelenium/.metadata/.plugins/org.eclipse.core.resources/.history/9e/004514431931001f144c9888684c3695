@@ -1,0 +1,26 @@
+package session20;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashMapDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//declaration
+//		Map hm =new HashMap();
+//		HashMap hm = new HashMap();
+		HashMap<Integer,String> hm = new HashMap<Integer,String>();
+		
+		//Adding pairs
+		hm.put(101, "john");
+		hm.put(102, "Shdan");
+		hm.put(103, "Zishan");
+		hm.put(101, "Smith");
+		hm.put(104, "hdgh");
+		
+		System.out.println(hm);
+	}
+
+}

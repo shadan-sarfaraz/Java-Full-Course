@@ -1,0 +1,12 @@
+package session11Methods;
+
+public class StudentMain {
+	public static void main(String[] args) {
+		Student st = new Student();
+//		st.sid = 1;
+//		st.sname = "shadan";
+//		st.sgrade = 'A';
+//		st.printStudentData();
+		st.studentData(1, "shadan", 'A');
+	}
+}

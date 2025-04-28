@@ -1,0 +1,18 @@
+package session18;
+
+public class HandleExeption {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Enter a number");
+		
+		
+		int num = sc.nextInt();
+		System.out.println(100/num);*/ //ArthemeticExeption
+		
+		
+		System.out.println("programme is completed");
+		System.out.println("programme is exited");
+	}
+
+}

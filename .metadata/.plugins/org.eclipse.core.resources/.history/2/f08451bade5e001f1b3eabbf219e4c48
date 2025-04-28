@@ -1,0 +1,32 @@
+package headerElements;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import commonFunctionality.CommonFunctionality;
+import login_logout_forgotPassword.Login_Logout;
+
+public class Notifications {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		WebDriver driver = new ChromeDriver();
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().window().maximize();
+		driver.get("https://superready.in/admin/login");
+		//login
+		Login_Logout.performLogin(driver,"kasmaniakim@gmail.com", "12345678");
+		driver.findElement(By.xpath("//*[name()='path' and contains(@d,'M18 8A6 6 ')]")).click();
+		driver.findElement(By.xpath("//a[normalize-space()='View all']")).click();
+		CommonFunctionality.enteriesBtn(driver, "100", js);
+		Thread.sleep(3000);
+		js.executeScript("window.scrollBy(0,-document.body.scrollHeight)", "");
+		CommonFunctionality.searchFuntionality(driver, "driver");
+		
+	}
+}

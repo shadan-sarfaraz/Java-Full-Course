@@ -1,0 +1,8 @@
+package session11Methods;
+
+public class GreetingMainJava {
+	public static void main(String[] args) {
+		GreetingJava g1 = new GreetingJava();
+		g1.greet();
+	}
+}

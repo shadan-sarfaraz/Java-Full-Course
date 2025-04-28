@@ -1,0 +1,50 @@
+package session38;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.WebDriver;
+/*
+ * Test case
+ * 
+ * 1) Launch browser(chrome)
+ * 2) Open URL https://demo.opencart.com/
+ * 3)Validate title should be "Your Store"
+ * 4)close browser
+ * 
+ * 
+ */
+
+public class FirstTestCases {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("testing...");
+		//1) Launch browser(chrome)
+//		ChromeDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
+		
+//		WebDriver driver = new EdgeDriver();
+		
+//		driver.get("https://demo.opencart.com/");
+		
+		//2) Open URL https://demo.opencart.com/
+		driver.get("https://masterymade.com/user/dashboard");
+		
+		//3)Validate title should be "Your Store"
+		String act_title = driver.getTitle();
+//		System.out.println(act_title);
+		if(act_title.equals("MasteryMade - Login")) {
+			System.out.println("Test pass");
+		}else {
+			System.out.println("test fail");
+		}
+		
+		//4)close browser
+//		driver.close();
+//		driver.quit();
+		
+		
+		
+	}
+
+}

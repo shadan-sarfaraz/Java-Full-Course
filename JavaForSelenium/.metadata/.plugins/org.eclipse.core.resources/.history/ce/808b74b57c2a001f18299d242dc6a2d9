@@ -1,0 +1,5 @@
+package session16;
+
+public interface I2 {
+
+}

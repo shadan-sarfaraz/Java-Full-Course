@@ -1,0 +1,22 @@
+package session19;
+
+public class TypeCastingConcept {
+	
+	//Upcasting - Converting value from smaller --> larger
+	//int --> long
+	//float --> double
+	
+	//Downcasting - converting value from larger --> smaller
+	//long --> int
+	//double --> float
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//upcasting - automatic --- smaller to larger
+		int intvalue = 100;
+		long longvalue = intvalue;
+		System.out.println(longvalue);
+
+	}
+
+}
